@@ -23,3 +23,5 @@ A professional-grade Travel Planning application built with **LangGraph** and **
 
 ## 🧠 Architecture
 The system uses a **Directed Acyclic Graph (DAG)** where state is passed between nodes. Each node represents a specific AI agent specialized in one task.
+<img width="1855" height="842" alt="scrrenshot Travel Planner" src="https://github.com/user-attachments/assets/245e1b7a-4bc5-493e-9d09-44dce9f50cad" />
+
