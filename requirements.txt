@@ -1,0 +1,7 @@
+langchain-ollama
+langgraph
+langgraph-checkpoint-sqlite
+langchain-community
+duckduckgo-search
+gradio
+fpdf2
