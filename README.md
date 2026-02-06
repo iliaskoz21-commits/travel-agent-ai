@@ -1,5 +1,10 @@
 # 🌍 Multi-Agent AI Travel Planner
 
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![LangGraph](https://img.shields.io/badge/Powered%20by-LangGraph-orange?style=for-the-badge)
+![Ollama](https://img.shields.io/badge/Ollama-local-white?style=for-the-badge&logo=ollama)
+![Tavily](https://img.shields.io/badge/Search-Tavily-blue?style=for-the-badge)
+
 A professional-grade Travel Planning application built with **LangGraph** and **Ollama (Mistral)**. This project demonstrates advanced AI engineering concepts like state machines, persistent SQLite memory, and multi-agent orchestration.
 
 ## 🚀 Key Features
