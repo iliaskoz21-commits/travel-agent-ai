@@ -18,7 +18,7 @@ A professional-grade Travel Planning application built with **LangGraph** and **
 - **Brain**: Mistral (Local via Ollama)
 - **UI**: Gradio
 - **Storage**: SQLite
-- **Tools**: DuckDuckGo Search API
+- **Tools**: Tavily Search API
 
 ## 📂 Installation
 1. Install [Ollama](https://ollama.ai/) and run `ollama pull mistral`.
