@@ -5,3 +5,4 @@ langchain-community
 duckduckgo-search
 gradio
 fpdf2
+tavily-python
