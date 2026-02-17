@@ -17,17 +17,19 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.14'
+          python-version: '3.12' # Κατεβάσαμε την έκδοση στην 3.12 για μέγιστη σταθερότητα με LangChain/Pydantic
           check-latest: true
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-          # Install testing tools
           pip install pytest
 
       - name: Run Tests
+        env:
+          # Χρησιμοποιούμε dummy τιμή για να περάσει το αρχικό import του TavilyClient
+          TAVILY_API_KEY: "dummy_test_key"
         run: |
-          # We use python -m pytest to ensure it picks up the current directory
+          # Εκτέλεση των tests
           python -m pytest test_app.py
